@@ -1,0 +1,29 @@
+# PowerShield Headless Module - Git Ignore
+
+# Example output files
+example-results.json
+example-results.sarif
+example-results.csv
+
+# Test outputs
+test-*.json
+test-*.sarif
+test-*.csv
+
+# Reports directory (if you create one)
+reports/
+
+# User-specific configuration
+config.local.json
+*.local.json
+
+# PowerShell module cache
+*.psm1.cache
+
+# VS Code settings (user-specific)
+.vscode/settings.json
+
+# Temporary files
+*.tmp
+*.temp
+~$*
